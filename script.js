@@ -1,12 +1,10 @@
 function firstChar(text) {
   // your code here
-	 if(text == " " || text == ""){
+	let trimmedText =   text.trim()
+	 if(trimmedText == ""){
 		 return ("")
 	 }
-	else{
-		  text.trim()
-		return text[0]
-	}
+		return trimmedText[0]
 }
 
 // Do not change the code below
